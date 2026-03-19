@@ -9,7 +9,7 @@ int main() {
     
     int capdonggioi, capdidoi;
 
-    if (x<=0|| x>100|| y<100){
+    if (x<1 || x>100 || y<1 || y>100){
         return 0;
     }
 
@@ -21,11 +21,8 @@ int main() {
 
     capdonggioi = abs(x-y)/2;
 
-    printf("cap di gioi = %d\n", capdidoi);
-    printf("cap dong gioi = %d", capdonggioi);
-
-
-
+    printf(" %d %d", capdidoi, capdonggioi);
+  
 
     return 0;
 }
