@@ -4,16 +4,17 @@
 int main() {
     int x;
     int y;
+    int capdonggioi, capdidoi;
     printf("nhap x y:" );
     scanf("%d%d", &x,&y);
     
-    int capdonggioi, capdidoi;
+    
 
     if (x<1 || x>100 || y<1 || y>100){
         return 0;
     }
 
-    if (x<y){
+    if (x<=y){
         capdidoi = x;
     }else{
         capdidoi = y;
@@ -22,7 +23,6 @@ int main() {
     capdonggioi = abs(x-y)/2;
 
     printf(" %d %d", capdidoi, capdonggioi);
-  
 
     return 0;
 }
