@@ -9,6 +9,10 @@ int main() {
     
     int capdonggioi, capdidoi;
 
+    if (x<=0|| x>100|| y<100){
+        return 0;
+    }
+
     if (x<y){
         capdidoi = x;
     }else{
