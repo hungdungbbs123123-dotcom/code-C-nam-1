@@ -61,7 +61,8 @@ void inphansomax(phanso* ds, int n){
     }
 
     printf("phan so lon nhat: ");
-    inphanso(ds[max]);
+    phanso kq = rutgon(ds[max]);
+    inphanso(kq);
     printf("\n");
 
 }
@@ -98,6 +99,10 @@ void rutgonxuatfile(phanso* ds, int n){
 int main() {
     int n;
     phanso* ds = docFile(&n);
+    if (ds == NULL) {
+    printf("Loi doc file!\n");
+    return 1;
+}
     inphansomax(ds, n);
     tong(ds, n);
     rutgonxuatfile(ds, n);
