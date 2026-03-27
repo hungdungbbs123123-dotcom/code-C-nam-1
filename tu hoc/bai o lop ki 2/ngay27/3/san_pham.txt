@@ -1,0 +1,6 @@
+danh sach san pham 
+tensp: aothun
+gia: 150.00 VND
+soluong: 5
+
+da luu thong tin san pham.
