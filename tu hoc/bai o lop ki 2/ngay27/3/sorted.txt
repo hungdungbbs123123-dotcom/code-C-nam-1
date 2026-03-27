@@ -1,0 +1,3 @@
+MS003  Kem danh rang  35.500000
+MS001  Sua tam  55000.500000
+MS002  Dau goi  120000.000000
